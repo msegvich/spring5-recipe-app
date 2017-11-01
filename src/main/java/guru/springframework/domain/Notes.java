@@ -18,6 +18,13 @@ public class Notes {
     @Lob
     private String recipeNotes;
 
+    public Notes() {
+    }
+
+    public Notes(String recipeNotes) {
+        this.recipeNotes = recipeNotes;
+    }
+
     public Long getId() {
         return id;
     }
